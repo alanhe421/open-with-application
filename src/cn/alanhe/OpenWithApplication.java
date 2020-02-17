@@ -22,6 +22,6 @@ public class OpenWithApplication extends AnAction {
         VirtualFile file = e.getData(CommonDataKeys.VIRTUAL_FILE);
         assert file != null;
         Presentation presentation = e.getPresentation();
-        presentation.setEnabled(!file.isDirectory());
+        presentation.setEnabledAndVisible(!file.isDirectory());
     }
 }
