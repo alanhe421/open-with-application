@@ -1,0 +1,41 @@
+<idea-plugin>
+    <id>cn.alanhe.plugin.openWithApplication</id>
+    <name>Open With Application</name>
+    <version>1.0.0</version>
+    <vendor email="i@alanhe.me" url="https://github.com/alanhg/open-with-application">Alan He</vendor>
+
+    <description><![CDATA[
+     Some files, such as md, png, open with a program in the system, not the IDE.
+   ]]></description>
+
+    <change-notes><![CDATA[
+     <p>1.0.0</p>
+     <ul>
+              <li>Support one-click to open with system default application</li>
+            </ul>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <!-- Add your actions here -->
+        <action id="OpenWithApplication" class="cn.alanhe.OpenWithApplication"
+                text="Open With Application"
+                icon="/icon/icon.png">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+
+</idea-plugin>
