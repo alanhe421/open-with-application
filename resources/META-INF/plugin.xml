@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>cn.alanhe.plugin.openWithApplication</id>
     <name>Open With Application</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor email="i@alanhe.me" url="https://github.com/alanhg/open-with-application">Alan He</vendor>
 
     <description><![CDATA[
@@ -29,10 +29,9 @@
 
     <actions>
         <!-- Add your actions here -->
-        <!-- Add your actions here -->
         <action id="OpenWithApplication" class="cn.alanhe.OpenWithApplication"
                 text="Open With Application"
-                icon="/icon/icon.png">
+                icon="/icons/icon.png">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
             <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
         </action>
