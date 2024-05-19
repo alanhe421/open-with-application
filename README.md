@@ -4,6 +4,11 @@
 > or right-click to select the appropriate program, 
 > and now I just need to click Right-click and select Open with Application.
 
-## GUIDE
-
+## Screenshot
 ![](./docs/screenshot.gif)
+
+### Install
+
+<iframe width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/13813"></iframe>
+
+<iframe width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/13813"></iframe>
